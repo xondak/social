@@ -1,0 +1,58 @@
+{
+    "header":[
+        "Report Number",
+        "Item SKU",
+        "Invoice Number",
+        "Manufacturer",
+        "Inspected",
+        "Customer Name"
+    ],
+    "state":{
+        "state1":{
+            "trueA":"office",
+            "trueB":"read"
+        },
+        "state2":{
+            "trueA":"meta",
+            "trueB":"notes"
+        },
+        "state3":{
+            "trueA":"info",
+            "trueB":"idNumber"
+        }
+    },
+    "row":{
+        "col0":{
+            "link":"?report=",
+            "trueA":"info",
+            "trueB":"idNumber",
+            "default":"No number set"
+        },
+        "col1":{
+            "trueA":"info",
+            "trueB":"SKU",
+            "default":"SKU not found"
+        },
+        "col2":{
+            "trueA":"info",
+            "trueB":"invoiceNumber",
+            "false":"Invoice No. not found"
+        },
+        "col3":{
+            "trueA":"info",
+            "trueB":"manufacturer",
+            "default":"Unknown Manufacturer"
+        },
+        "col4":{
+            "trueA":"damageset",
+            "trueB":"inspected",
+            "default":"Inspection Incomplete"
+        },
+        "col5":{
+            "trueA":"customer",
+            "trueB":"name",
+            "false":"Name not found"
+        }
+    },
+    "end":"</tr>"
+}

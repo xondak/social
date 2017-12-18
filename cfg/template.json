@@ -1,0 +1,170 @@
+{
+    "meta":{
+        "version": "1.0",
+        "button": "submit"
+    },
+    "info": {
+        "header": "Item Info",
+        "idNumber": {
+            "label": "Internal Claim Number",
+            "type": "text",
+            "name": "info[idNumber]",
+            "placeholder": "This is automatically assigned",
+            "value": "",
+            "readonly": "readonly"
+        },
+        "manufacturer": {
+            "label": "Manufacturer",
+            "type": "text",
+            "name": "info[manufacturer]",
+            "placeholder": "e.g. Laura Ashley",
+            "value": ""
+        },
+        "purchaseDate": {
+            "label": "Date of Purchase",
+            "type": "date",
+            "name": "info[purchaseDate]",
+            "placeholder": "Do not use slashes!",
+            "value": ""
+        },
+        "SKU": {
+            "label": "SKU/Model #",
+            "type": "text",
+            "name": "info[SKU]",
+            "placeholder": "e.g. 10542-1050",
+            "value": ""
+        },
+        "finish": {
+            "label": "Finish/Fabric",
+            "type": "text",
+            "name": "info[finish]",
+            "placeholder": "e.g. Distressed White",
+            "value": ""
+        },
+        "invoiceNumber": {
+            "label": "Invoice Number",
+            "type": "text",
+            "name": "info[invoiceNumber]",
+            "placeholder": "",
+            "value": ""
+        },
+        "invoiceDate": {
+            "label": "Invoice Date",
+            "type": "date",
+            "name": "info[invoiceDate]",
+            "placeholder": "Do not use slashes!",
+            "value": ""
+        },
+        "manufactureDate": {
+            "label": "Manufacture Date",
+            "type": "date",
+            "name": "info[manufactureDate]",
+            "placeholder": "Do not use slashes!",
+            "value": ""
+        },
+        "paymentStatus": {
+            "label": "Payment Status",
+            "type": "text",
+            "name": "info[paymentStatus]",
+            "placeholder": "Who is paying for this?",
+            "value": ""
+        }
+    },
+    "customer": {
+        "header": "Customer Info",
+        "name": {
+            "label": "Customer Name",
+            "type": "text",
+            "name": "customer[name]",
+            "placeholder": "e.g. Jane Smith",
+            "value": ""
+        },
+        "phoneNumber": {
+            "label": "Phone Number",
+            "type": "tel",
+            "name": "customer[phoneNumber]",
+            "placeholder": "ex 207-338-3610",
+            "value": ""
+        },
+        "complaintDate": {
+            "label": "Date Customer Called",
+            "type": "date",
+            "name": "customer[complaintDate]",
+            "placeholder": "Do not use slashes!",
+            "value": ""
+        },
+        "address": {
+            "label": "Address",
+            "type": "text",
+            "name": "customer[address]",
+            "placeholder": "e.g. 1 Wilson Way, Belfast ME",
+            "value": ""
+        }
+    },
+    "office": {
+        "header": "Office Use",
+        "read": {
+            "label": "Read",
+            "type": "checkbox",
+            "name": "office[read]"
+        },
+        "processed": {
+            "label": "Processed",
+            "type": "checkbox",
+            "name": "office[processed]"
+        },
+        "completed": {
+            "label": "Completed",
+            "type": "checkbox",
+            "name": "office[completed]"
+        },
+        "date-completed": {
+            "label": "Date Completed",
+            "type": "date",
+            "name": "office[date-completed]",
+            "value": ""
+        },
+        "purchaseorder": {
+            "label": "Purchase Order Number",
+            "type": "text",
+            "name": "office[purchaseorder]",
+            "placeholder": "PO Number",
+            "value": ""
+        }
+    },
+    "damageset": {
+        "header": "Damage",
+        "description": {
+            "label": "Customers Description",
+            "type": "textarea",
+            "name": "damageset[description]",
+            "placeholder": "How does the customer describe the damage?",
+            "value": ""
+        },
+        "inspectorNotes": {
+            "label": "Actual Damage",
+            "type": "textarea",
+            "name": "damageset[inspectorNotes]",
+            "placeholder": "What is ACTUALLY wrong with the piece?",
+            "value": ""
+        },
+        "parts": {
+            "label": "Parts to Order",
+            "type": "textarea",
+            "name": "damageset[parts]",
+            "placeholder": "What parts do we need?",
+            "value": ""
+        },
+        "inspected": {
+            "label": "Date Inspected",
+            "type": "date",
+            "name": "damageset[inspected]",
+            "placeholder": "Date Inspected",
+            "value": "Do not use slashes!"
+        }
+    },
+    "attached": {
+        "header": "Images",
+        "images": {}
+    }
+}
